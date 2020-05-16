@@ -1,0 +1,24 @@
+Analizar el proyecto compartido en WeTransfer llamado ECOMMERCE y responder las siguientes preguntas:
+
+1. Los datos que se va a utilizar en la API donde están (quemados en array o en una lista o desde una DB)
+RTA/: Anteriormente estaba en un array quemado, luego se modifico y el array esta en la carpeta utils/mocks
+que es lo que se muestra en FrontEnd.
+
+2. Cuales son los endponints que se van a consumir luego
+RTA/: Si queremos consumir el Endpoint de la api debemos escribir 'http://localhost:3000/api/products' y el verbo que deseemos acceder 
+Si queremos consumir el FrontEnd http://localhost:3000/products
+
+3. Que verbos se esta utilizando (get, post, put, delete)
+RTA/: Se usan todos los verbos (get, post, put, delete)
+- 2 get uno para ver el array completo y el otro por id
+- el post para crear un producto
+- el put para actualizarlo
+- y el delete para eliminarlo
+
+4. Que códigos de respuesta HTTP se están utilizando (200, 201, 400, etc)
+RTA/: Los codigos que estamos usando es el 200 OK y el 201 Created.
+
+5. Tratar de probarlo en local
+- Funcional corre con el puerto 3000 con npm run dev
+6. Tratar de probarlo en postman
+- Funcional
